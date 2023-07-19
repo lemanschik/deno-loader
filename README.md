@@ -14,3 +14,16 @@ so fetch is the only real Interface that is defined by ECMA to get code into the
 The secund way to get something into the Engine is the load function if it exists it is able to dynamical load 
 asm modules or other modules and link them into the stack.
 
+## What does it solve?
+- Binary Snapshoots for supported Runtimes: Deno, Chromium, NodeJS, B8G, V8
+- Packaging Bundling for supported Runtimes
+- Load and Transform Hooks.
+- Solutions to common Problems when dealing with legacy Code.
+- Works also for Deno to Add extra functionality that deals with legacy Code and Projects as also Packages.
+- Is used by B8G as the Main loader and Build System.
+- Does Replace a Common used Package Manager when this Project reaches 1.0
+- Will Use the Universal OPFS API's Like StorageManager and Polyfill them if needed.
+
+## Goals
+Code Once for deno and let it run anywhere even on targets like cloudflare workers and NGINX NJS or your Local Browser
+but Mainly this is a Core Part of AwesomeOS to make it more easy to integrate legacy Software and Optimize it Incremental.
