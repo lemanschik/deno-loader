@@ -27,3 +27,7 @@ asm modules or other modules and link them into the stack.
 ## Goals
 Code Once for deno and let it run anywhere even on targets like cloudflare workers and NGINX NJS or your Local Browser
 but Mainly this is a Core Part of AwesomeOS to make it more easy to integrate legacy Software and Optimize it Incremental.
+
+also inhires the server parts for widly known cdn's and ECMAScript Package Processing pipelines like git, npm, esm.sh which uses esbuild, unpkg.com which is mainly a call fetch pattern over npm.
+
+
