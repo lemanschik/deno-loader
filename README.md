@@ -4,7 +4,7 @@ A ECMAScript Implementation of partial deno tooling and loader API's Allows to l
 ## Why?
 Deno is the most best Loader Builder Implementation on top of v8 but it also is for the most coders that target nodejs
 a Additional Target. So To make Deno Land Code and ECMAScript written targeting Deno run able on other Platforms like
-AwesomeOS or Chromium even NodeJS this is the Smallest Denominator. 
+AwesomeOS or Chromium even NodeJS and es4x / GraalJS on GraalVM, this is the Smallest Denominator. 
 
 All ECMAScript Engines are not aware of any FileSystem API's they only know that they need to call the fetch implementation
 If you use the import Operator or the dynamic import() function. The Rest is up to the Implementer
