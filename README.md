@@ -25,6 +25,7 @@ the 3rd way is the fact that near any common Engine implements FileSystem API's 
 - Is used by B8G as the Main loader and Build System.
 - Does Replace a Common used Package Manager when this Project reaches 1.0
 - Will Use the Universal OPFS API's Like StorageManager and Polyfill them if needed.
+  - https://github.com/lemanschik/native-file-system-adapter
 
 ## Goals
 Code Once for deno and let it run anywhere even on targets like cloudflare workers and NGINX NJS or your Local Browser
