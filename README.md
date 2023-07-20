@@ -14,6 +14,8 @@ so fetch is the only real Interface that is defined by ECMA to get code into the
 The secund way to get something into the Engine is the load function if it exists it is able to dynamical load 
 asm modules or other modules and link them into the stack.
 
+the 3rd way is the fact that near any common Engine implements FileSystem API's and this https://github.com/lemanschik/native-file-system-adapter provides the needed unifed Adapter for that
+
 ## What does it solve?
 - Binary Snapshoots for supported Runtimes: Deno, Chromium, NodeJS, B8G, V8
 - Packaging Bundling for supported Runtimes
